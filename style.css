@@ -1,0 +1,336 @@
+body
+{
+background-image:url("download.jpg");
+ background-repeat: no-repeat;
+background-size:cover;
+   
+}
+
+
+.main{
+display:inline;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #CEC4C4;
+    position: fixed;
+    top: 0; 
+ width: 100%;
+ float: right; 
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #0A0706;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #161B1E;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+	
+    color: red;	
+    
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 26px;
+    margin-left: 50px;
+}
+.main worksheet1 {
+float:left;
+}
+.main worksheet2 {
+float:right;
+}
+.bar1
+{
+ list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    overflow: hidden;
+    background-color: #058AE2;
+     width:100%; 
+height:20%;   
+display:inline-block;
+
+	
+}
+.box1 input{
+	float:right;
+	width:30%;
+	height:15%;
+	background-color:blue;
+	color:white;
+}
+.worksheet1
+{
+    border: 10px solid blue;
+    padding: 0px;
+    margin: 5px;
+    width:30%; 
+height:30%;
+}
+.box1
+{
+ list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+//worksheet2
+
+
+.bar2
+{
+ list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    
+    background-color:red;
+     width:100%; 
+height:20%;   
+display:inline-block;
+
+	
+}
+.box2 input{
+	float:right;
+	width:30%;
+	height:15%;
+	background-color:red;
+	color:white;
+}
+.worksheet2
+{
+    border: 10px solid red;
+    padding: 0px;
+    margin: 5px;
+    width:30%; 
+height:30%;
+float:right;
+}
+.box2
+{
+ list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  } 
+//worksheet3 
+.bar3
+{
+ list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    
+    background-color: green;
+     width:100%; 
+height:20%;   
+display:inline-block;
+
+	
+}
+.box3 input{
+	float:right;
+	width:30%;
+	height:15%;
+	background-color:green;
+	color:white;
+}
+.worksheet3
+{
+    border: 10px solid green;
+    padding: 0px;
+    margin: 5px;
+    width:30%; 
+height:30%;
+float:right;
+}
+.box3
+{
+ list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+//worksheet4
+.bar4
+{
+ list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    
+    background-color: yellow;
+     width:100%; 
+height:20%;   
+display:inline-block;
+
+	
+}
+.box4 input{
+	float:right;
+	width:30%;
+	height:15%;
+	background-color:yellow;
+	color:white;
+}
+.worksheet4
+{
+    border: 10px solid yellow;
+    padding: 0px;
+    margin: 5px;
+    width:30%; 
+height:30%;
+float:right;
+}
+.box4
+{
+ list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  } 
+//worksheet5
+.bar5
+{
+ list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    
+    background-color: yellow;
+     width:100%; 
+height:20%;   
+display:inline-block;
+
+	
+}
+.box5 input{
+	float:right;
+	width:30%;
+	height:15%;
+	background-color:yellow;
+	color:white;
+}
+.worksheet5
+{
+    border: 10px solid yellow;
+    padding: 0px;
+    margin: 5px;
+    width:30%; 
+height:30%;
+float:right;
+}
+.box5
+{
+ list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+//worksheet6
+.bar6
+{
+ list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    
+    background-color: blue;
+     width:100%; 
+height:20%;   
+display:inline-block;
+
+	
+}
+.box6 input{
+	float:right;
+	width:30%;
+	height:15%;
+	background-color:blue;
+	color:white;
+}
+.worksheet6
+{
+    border: 10px solid blue;
+    padding: 0px;
+    margin: 5px;
+    width:30%; 
+height:30%;
+float:right;
+}
+.box6
+{
+ list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+//worksheet7
+.bar7
+{
+ list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    
+    background-color: green;
+     width:100%; 
+height:20%;   
+display:inline-block;
+
+	
+}
+.box7 input{
+	float:right;
+	width:30%;
+	height:15%;
+	background-color:green;
+	color:white;
+}
+.worksheet7
+{
+    border: 10px solid green;
+    padding: 0px;
+    margin: 5px;
+    width:30%; 
+height:30%;
+float:right;
+}
+.box7
+{
+ list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
